@@ -2,7 +2,7 @@ import customersModel from "../Models/Customers.js";
 import employeesModel from "../Models/Employees.js";
 import bcryptjs from "bcryptjs"; // Encriptar
 import jsonwebtoken from "jsonwebtoken"; // generar token
-import { config } from "../config.js";
+import { config } from "../../config.js";
 
 
 const loginController = {};

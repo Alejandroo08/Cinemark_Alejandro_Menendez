@@ -1,6 +1,6 @@
 import movieModel from "../Models/Movies.js";
 
-import { config } from "../config.js";
+import {config} from "../../config.js";
 
 import {v2 as cloudinary} from "cloudinary";
 

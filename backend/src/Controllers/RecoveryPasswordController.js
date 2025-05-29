@@ -5,8 +5,8 @@ import employeesModel from "../Models/Employees.js";
 import customersModel from "../Models/Customers.js";
 
 
-import { sendEmail, HTMLRecoveryEmail } from "../utils/mailPasswordRecovery.js";
-import { config } from "../config.js";
+import { sendEmail, HTMLRecoveryEmail } from "../../src/Controllers/Utils//mailPasswordRecovery.js";
+import { config } from "../../config.js";
 import { verify } from "crypto";
 import { error } from "console";
 

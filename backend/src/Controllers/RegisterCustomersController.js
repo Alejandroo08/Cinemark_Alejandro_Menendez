@@ -4,7 +4,7 @@ import nodemailer from "nodemailer";
 import crypto from "crypto";
 import clientsModel from "../Models/Customers.js";
 
-import {config} from "../config.js";
+import {config} from "../../config.js";
 import { error, info } from "console";
 
 const registerClientController = {};

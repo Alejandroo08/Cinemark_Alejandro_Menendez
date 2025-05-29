@@ -1,10 +1,10 @@
 import express from "express";
 import cookieParser from "cookie-parser";
-import moviesRoutes from "./src/Routes/MoviesRoute.js"
-import customerRoutes from "./src/Routes/CustomersRoute.js"
-import employeeRoutes from "./src/Routes/EmployeesRoute.js"
-import loginRoutes from "./src/routes/login.js";
-import logoutRoutes from "./src/routes/logout.js";
+import moviesRoutes from "./src/Routes/MoviesRoutes.js"
+import customerRoutes from "./src/Routes/CustomersRoutes.js"
+import employeeRoutes from "./src/Routes/EmployessRoutes.js"
+import loginRoutes from "./src/Routes/login.js";
+import logoutRoutes from "./src/Routes/logout.js";
 
 import recoveryPasswordRoutes from "./src/Routes/recoveryPassword.js"
 
